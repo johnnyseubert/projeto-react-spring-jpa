@@ -24,11 +24,11 @@ export default function Form() {
                <div className="form-group dsmovie-form-group">
                   <label htmlFor="score">Informe sua avaliação</label>
                   <select className="form-control" id="score">
-                     <option>1</option>
-                     <option>2</option>
-                     <option>3</option>
-                     <option>4</option>
-                     <option>5</option>
+                     <option value="1">1 estrela</option>
+                     <option value="2">2 estrelas</option>
+                     <option value="3">3 estrelas</option>
+                     <option value="4">4 estrelas</option>
+                     <option value="5">5 estrelas</option>
                   </select>
                </div>
                <div className="dsmovie-form-btn-container">
