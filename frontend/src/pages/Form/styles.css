@@ -55,8 +55,9 @@
    align-items: center;
    justify-content: center;
    border: none;
+   box-shadow: 2px 2px 5px #888;
 }
 
 .dsmovie-btn:hover{
-   background-color: #d37f12;
+   background-color: var(--color-primary-hover);
 }
