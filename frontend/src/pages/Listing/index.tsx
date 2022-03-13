@@ -2,7 +2,7 @@ import axios from "axios";
 import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 import { useEffect, useState } from "react";
-import { Movie, MoviePage } from "types/movie";
+import { MoviePage } from "types/movie";
 import { BASE_URL } from "utils/requests";
 
 export default function Listing() {
@@ -28,8 +28,6 @@ export default function Listing() {
          .then(response => {
             const data = response.data as MoviePage;
             setPage(data);
-
-
          })
    }, [pageNumber])
 
